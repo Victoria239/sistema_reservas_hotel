@@ -39,6 +39,14 @@ public class Cliente {
     public String getNombre() {
         return nombre;
     }
+    
+    /**
+     * Obtiene el nombre completo del cliente.
+     * @return El nombre completo del cliente
+     */
+    public String getNombreCompleto() {
+        return this.nombre; // En este caso, nombre ya es el nombre completo
+    }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
